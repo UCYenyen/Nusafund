@@ -32,3 +32,48 @@ Ensure you have Node.js installed and the Expo Go app on your mobile device, or 
 2. Install dependencies:
    ```bash
    npm install
+
+### 🚀 How to Run Nusafund
+
+Follow these steps to get the application running on your environment. Ensure you have installed the dependencies first using `npm install`.
+
+#### 1. Running on Web
+To run the application in a web browser using `react-native-web`:
+1.  Open your terminal in the project root.
+2.  Run the following command:
+    ```bash
+    npm run web
+    ```
+3.  The app will compile and open in your default browser at `http://localhost:8081`.
+
+#### 2. Running on Android
+You can run the app on a physical device or an emulator:
+* **Physical Device**:
+    1.  Install the **Expo Go** app from the Google Play Store.
+    2.  Run `npm run start` (or `npm run android`) in your terminal.
+    3.  Scan the QR code displayed in the terminal using the Expo Go app.
+* **Emulator**:
+    1.  Launch your Android Virtual Device (AVD) from Android Studio.
+    2.  Run the following command:
+        ```bash
+        npm run android
+        ```
+
+#### 3. Running on iOS
+* **Physical Device**:
+    1.  Install the **Expo Go** app from the Apple App Store.
+    2.  Run `npm run start` (or `npm run ios`) in your terminal.
+    3.  Scan the QR code using your iPhone's **Camera app** and tap the notification to open Expo Go.
+* **Simulator (macOS only)**:
+    1.  Open the iOS Simulator via Xcode.
+    2.  Run the following command:
+        ```bash
+        npm run ios
+        ```
+
+### 📋 Available Scripts
+These scripts are defined in your `package.json`:
+* `npm run start`: Starts Expo and displays the interactive menu.
+* `npm run android`: Opens the app on Android.
+* `npm run ios`: Opens the app on iOS.
+* `npm run web`: Opens the app in a web browser.
