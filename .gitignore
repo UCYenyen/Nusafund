@@ -1,0 +1,79 @@
+# --- Dependencies ---
+node_modules/
+.pnp
+.pnp.js
+
+# --- Testing ---
+/coverage
+
+# --- Build Outputs ---
+/build
+/dist
+/.expo/
+/.next/
+/out/
+
+# --- Android ---
+.gradle
+local.properties
+*.pb
+*.iml
+*.hprof
+.cxx/
+*.apk
+*.aab
+build/
+captures/
+# Use this if you don't want to track your keystore
+*.keystore
+!debug.keystore
+
+# --- iOS ---
+ios/build/
+ios/Pods/
+ios/.xcode.env.local
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+ios/DerivedData
+ios/IPHONEOS_DEPLOYMENT_TARGET
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# --- Editor & OS Specific ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Arch Linux / System Specific ---
+*~
+.fuse_hidden*
+.directory
+.Trash-*
